@@ -1,0 +1,23 @@
+# Desfio de Projeto
+
+## criar um repositório
+
+ - como criar um repositório local?
+   1.git init
+   2.git add . 
+   3.git commit -m "  dentro desta aspas será o comentario do commit, ele deve ser um comentario que tenha sentindo "
+ 
+
+  - como mandar para dar um push?
+
+   após criar um repositório no Github
+
+   1. git remote add origin https://github.com/ViniciusSerra/estudos.git
+   2. git push -u origin master
+
+
+
+
+
+
+
