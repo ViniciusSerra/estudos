@@ -34,10 +34,41 @@ header{
 /** PRIMEIRO CONTAINER : alinhando menu do topo,  cada um de um lado. List-itemns: ajeitando o espaçamento de das a **/
 header .list-items{
     display: flex;
-    max-width: 260px;
+    max-width: 400px;
+   
     width: 100%;
     justify-content: space-between;
+    border: solid black 1px;
 }
+header .buttom{
+    align-self: center;
+    align-content: center;
+    width: 100px;
+    display: flex;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: bold;
+    color: #fff;
+    margin: 0px 15px;
+    padding: 10px 35px;
+    border: 2px solid orange;
+    overflow: hidden;
+    position: relative;
+    &:before{
+        content: "";
+        position:absolute;
+        top:0%;
+        left:0%;
+        width:100%;
+        height:100%;
+        background-color: blue;
+
+        z-index: -1;
+        trasition:.7s ease
+    }
+}     
+
 .list-items li a{
     color: #fff;
     
@@ -239,10 +270,17 @@ footer{
     .flex-container{
         flex-direction: column;
     }
+    .menu h1{
+        text-align: center;
+        font-family: 'Tiro Devanagari Marathi', serif;
+    }
     .apresentacao{
         flex-direction: column-reverse;
         width: 100%;
         height: 80vh;
+    }
+    header .list-items {
+        color: red;
     }
     #quem-somos{
         flex-direction: column-reverse;
